@@ -1,162 +1,333 @@
 <!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/html">
-<head>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="about us style.css">
+<html lang="en-us">
 
-    <meta charset="UTF-8">
-    <title>About Us</title>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="A page with information about the WIT-Project and application form.">
+    <meta name="author" content="The webpage for WIT created by members from the 2018/2019 course. Grace, Osman, Jehad and Hiruth.">
+
+    <title>WE IGNITE TECH IN:PROGRESS</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+
+    <!-- External CSS file(s) -->
+    <link rel="stylesheet" href="newaboutus.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link href='css/rotating-card.css' rel='stylesheet' />
+    <link href='css/bootstrap.css' rel='stylesheet' />
+    
+       <!-- AOS Lib -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+    <!-- External font styles -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+
+
+    <!--      CSS rules to specify family:
+    font-family: 'Courgette', cursive;
+    font-family: 'Major Mono Display', monospace;
+    font-family: 'Pompiere', cursive;         -->
+    <link href="https://fonts.googleapis.com/css?family=Courgette|Major+Mono+Display|Pompiere" rel="stylesheet">
+    <!-- instagram brand logo style -->
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lobster" />
 </head>
 
 <body>
-<nav>
-<a href="index.html" target="_self">
-    <div id="logo" class="navbar-brand">
-        <h1>We Ignite Tech</h1>
+    <header>
+        <nav id="navbar" class="navbar navbar-inverse navbar-expand-md navbar-light fixed-top">
+            <a class="navbar-brand ml-3" href="index.html">
+                <span class="glyphicon glyphicon-fire"></span> WE IGNITE TECH</a>
+            <!--Todo: could make a cool animation with the acronym as it is only straight lines -->
+            <button class="navbar-toggler btn-secondary mr-0" type="button" data-toggle="collapse" data-target="#navbarMenu" aria-controls="navbarMenue" aria-expanded="false" aria-label="Toggle Navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse right" id="navbarMenu">
+                <ul class="navbar-nav mr-auto navbar-right">
+                    <li><a href="aboutus.html"><span class="glyphicon glyphicon-user"></span> About Us</a></li>
+                    <li><a href="WITP.html"><span class="glyphicon glyphicon-list-alt"></span> WIT Program</a></li>
+                    <li><a href="applynow.html"><span class="glyphicon glyphicon-check"></span> Apply Now</a></li>
+                    <li><a href="contactus.html"><span class="glyphicon glyphicon-envelope"></span> Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="mentorCards jumbotron-green">
+        <div class="row ">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div id="Sandra" class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                    <div class="card-container">
+                        <div class="card">
+                            <div class="front">
+                                <div class="cover">
+                                    <img src="images/rotating_card_thumb2.png" />
+                                </div>
+                                <div class="user">
+                                    <img class="img-circle" src="images/MentorFaces/Sandra.png" />
+                                </div>
+                                <div class="content">
+                                    <div class="main">
+                                        <h3 class="name">Sandra S. Skretting</h3>
+                                        <p class="profession">Coach</p>
+                                        <p class="text-center">Co Founder hos In:progress</p>
+                                    </div>
+                                    <div class="footer">
+                                        <i class="fa fa-mail-forward"></i> More about Sandra
+                                    </div>
+                                </div>
+                            </div> <!-- end front panel -->
+                            <div class="back">
+                                <div class="header">
+                                    <p class="motto">"My awesome motto!"</p>
+                                </div>
+                                <div class="content">
+                                    <div class="main text-center">
+                                        <h4 class="text-center">Job Description</h4>
+                                        <i>Coaching, motivating and facilitating for the participants. </i>
+                                        <br>
+                                        <br>
+                                        <span class="fa fa-mobile-alt"> Mobile : </span>
+                                        <br><span class="fa fa-envelope"> E-mail : </span>
+                                    </div>
+                                </div>
+                                <div class="footer">
+                                    <div class="social-links text-center">
+                                        <a href="#" class="facebook"><i class="fab fa-facebook fa-fw"></i></a>
+                                        <a href="#"><i class="fab fa-linkedin"></i></a> <a href="#" class="facebook"><i class="fab fa-instagram"></i></a>
+                                        <a href="#" class="twitter"><i class="fab fa-twitter fa-fw"></i></a>
+                                    </div>
+                                </div>
+                            </div> <!-- end back panel -->
+                        </div> <!-- end card -->
+                    </div> <!-- end card-container -->
+                </div>
+                <div id="Linn" class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                    <div class="card-container">
+                        <div class="card">
+                            <div class="front">
+                                <div class="cover">
+                                    <img src="images/bg4.jpg" />
+                                </div>
+                                <div class="user">
+                                    <img class="img-circle" src="images/MentorFaces/Linn.png" />
+                                </div>
+                                <div class="content">
+                                    <div class="main">
+                                        <h3 class="name">Linn Tomasdotter</h3>
+                                        <p class="profession">Coach</p>
+                                        <p class="text-center">Consultant at Tinkr</p>
+                                    </div>
+                                    <div class="footer">
+                                        <i class="fa fa-mail-forward"></i> More about Linn
+                                    </div>
+                                </div>
+                            </div> <!-- end front panel -->
+                            <div class="back">
+                                <div class="header">
+                                    <p class="motto">"To be or not to...!"</p>
+                                </div>
+                                <div class="content">
+                                    <div class="main text-center">
+                                        <h4 class="text-center">Job Description</h4>
+                                        <i>Coaching, motivating and facilitating for the participants.</i>
+                                        <br>
+                                        <br>
+                                        <span class="fa fa-mobile-alt"> Mobile : </span>
+                                        <br><span class="fa fa-envelope"> E-mail : </span>
+                                    </div>
+                                </div>
+                                <div class="footer">
+                                    <div class="social-links text-center">
+                                        <a href="#" class="facebook"><i class="fab fa-facebook fa-fw"></i></a>
+                                        <a href="https://www.linkedin.com/in/linn-tomasdotter-40102b42/" class="linkedin" class="linkedin"><i class="fab fa-linkedin"></i></a> <a href="#" class="facebook"><i class="fab fa-instagram"></i></a>
+                                        <a href="#" class="twitter"><i class="fab fa-twitter fa-fw"></i></a>
+                                    </div>
+                                </div>
+                            </div> <!-- end back panel -->
+                        </div> <!-- end card -->
+                    </div> <!-- end card-container -->
+                </div>
+                <div id="Thomas" class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                    <div class="card-container">
+                        <div class="card">
+                            <div class="front">
+                                <div class="cover">
+                                    <img src="images/bg.png" />
+                                </div>
+                                <div class="user">
+                                    <img class="img-circle" src="images/MentorFaces/Thomas.png" />
+                                </div>
+                                <div class="content">
+                                    <div class="main">
+                                        <h3 class="name">Thomas Dufourd</h3>
+                                        <p class="profession">Technical coach</p>
+                                        <p class="text-center">Senior Consultant at Bekk Consulting AS</p>
+                                    </div>
+                                    <div class="footer">
+                                        <i class="fa fa-mail-forward"></i> More about Thomas
+                                    </div>
+                                </div>
+                            </div> <!-- end front panel -->
+                            <div class="back">
+                                <div class="header">
+                                    <p class="motto">"My awesome motto!"<br></p>
+                                </div>
+                                <div class="content">
+                                    <div class="main text-center">
+                                        <h4 class="text-center">Job Description</h4>
+                                        <i>Coaching, motivating and facilitating for the participants. </i>
+                                        <br>
+                                        <br>
+                                        <span class="fa fa-mobile-alt"> Mobile : </span>
+                                        <br><span class="fa fa-envelope"> E-mail : </span>
+                                    </div>
+                                </div>
+                                <div class="footer">
+                                    <div class="social-links text-center">
+                                        <a href="#" class="facebook"><i class="fab fa-facebook fa-fw"></i></a>
+                                        <a href="#" class="facebook"><i class="fab fa-linkedin"></i></a> <a href="#" class="facebook"><i class="fab fa-instagram"></i></a>
+                                        <a href="#" class="twitter"><i class="fab fa-twitter fa-fw"></i></a>
+                                    </div>
+                                </div>
+                            </div> <!-- end back panel -->
+                        </div> <!-- end card -->
+                    </div> <!-- end card-container -->
+                </div>
+                <div id="Henrik" class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                    <div class="card-container">
+                        <div class="card">
+                            <div class="front">
+                                <div class="cover">
+                                    <img src="images/bg4.jpg" />
+                                </div>
+                                <div class="user">
+                                    <img class="img-circle" src="images/MentorFaces/Henrik.png" />
+                                </div>
+                                <div class="content">
+                                    <div class="main">
+                                        <h3 class="name">Henrik A. Skjerve</h3>
+                                        <p class="profession">Coach</p>
+                                        <p class="text-center">Manager at Bekk Consulting</p>
+                                    </div>
+                                    <div class="footer">
+                                        <i class="fa fa-mail-forward"></i> More about Henrik
+                                    </div>
+                                </div>
+                            </div> <!-- end front panel -->
+                            <div class="back">
+                                <div class="header">
+                                    <p class="motto">"To be or not to be!"</p>
+                                </div>
+                                <div class="content">
+                                    <div class="main text-center">
+                                        <h4 class="text-center">Job Description</h4>
+                                        <i>Coaching, motivating and facilitating for the participants. </i>
+                                        <br>
+                                        <br>
+                                        <span class="fa fa-mobile-alt"> Mobile : </span>
+                                        <br><span class="fa fa-envelope"> E-mail : </span>
+                                    </div>
+                                </div>
+                                <div class="footer">
+                                    <div class="social-links text-center">
+                                        <a href="#" class="facebook"><i class="fab fa-facebook fa-fw"></i></a>
+                                        <a href="#" class="facebook"><i class="fab fa-linkedin"></i></a> <a href="#" class="facebook"><i class="fab fa-instagram"></i></a>
+                                        <a href="#" class="twitter"><i class="fab fa-twitter fa-fw"></i></a>
+                                    </div>
+                                </div>
+                            </div> <!-- end back panel -->
+                        </div> <!-- end card -->
+                    </div> <!-- end card-container -->
+                </div>
+            </div> <!-- end col -->
+        </div> <!-- end row -->
     </div>
-</a>
-<div>
-    <ul class="navbar">
-        <li>  <span><a href="applynow.html"><span class="Apply"></span>Apply Now</a></span></li>
-        <li> <span><a href="about us.html" target="_self"><span class="About"></span>About Us</a></span></li>
-        <li><span><a href="contactform.html" target="_self"><span class ="Contact"></span>Contact us</a></span></li>
-    </ul>
-</div>
-</nav>
-
-<div class="row">
-    <div class="side"> </div>
-    <div class="main"> </div>
-</div>
-
-<div class="row">
-    <div class="side"> </div>
-    <div class="main"> </div>
-</div>
-
-<div class="row">
-    <div class="side"> </div>
-    <div class="main"> </div>
-</div>
-<div class="image about us">
-<img src="images/about-us.jpg" style="width:70%;"/>
-</div>
-<div class="row">
-    <div class="side"></div>
-    <div class="main">
-        <p style="white-space:pre-wrap;">
-        <div class = "product-preview__title">
-        <h1 class = "h1 alt-h1">Newcomer with tech background?</h1>
-
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h3 class="text-center"><strong>What Is We Ignite Tech?</strong></h3>
+                <p class="text-justify">We Ignite Tech is a full stack developer program for newcomers in Norway. The aim is to contribute to raising the competence levels of newcomers with IT-background to ensure they become more relevant as employees for Norwegian businesses. Both through
+                    programming skills and soft skills.</p><br>
+                <h3 class="text-center" id="courseUpdates"><strong>Why We Ignite Tech?</strong></h3>
+                <p class="text-justify">We aim to help businesses with their recruitment and inclusion. And we want to enable newcomers to build a relevant professional network and get closer to relevant job opportunities. Newcomers have experience, higher education, good ideas, initiatives
+                    and inspiration that are valuable for Norwegian businesses. There is a huge demand for developers and digital heads. Meanwhile, newcomers with valuable tech background are not given the opportunity to update their practical knowledge to meet the
+                    requirements of the market and be part of the global tech community. Our mission is to find solutions to bridge that gap: the We Ignite Tech program.</p>
+            </div>
+        </div>
     </div>
-        This fall is the beginning of the We Ignite Tech program (yay!).
-
-        It is a full stack developer program on speed with the aim to enable newcomers to enter the tech job market faster, as well as helping businesses find new talented techies.
-
-        The program is for people with some prior knowledge and experience with programming, who want to refresh and update their knowledge to meet the requirements of the labour market. This is the first time we’re doing this - so join us and co-create!
-
-        The application process is now closed, but are you, or someone you know the right candidate? Keep reading :)
-    </p>
+    <div class="container">
+        <div class="text-center">
+            <h2><strong>LET US GET PEOPLE INTO A <i>RELEVANT</i> JOB – NOT JUST A JOB!</strong></h2>
+        </div>
     </div>
-    <div class="side"></div>
-    <div class="main">
-        <p style="white-space:pre-wrap;">
-            How does it work?
 
-            In the span of 4 months (expected start in mid October) you will improve your technical skills and learn what is required of you to work as a developer in Norway. The program will combine practical training in programming, development of your personal skills, build professional network and give you insight into relevant job opportunities.
-
-            Customized to candidate with some prior tech experience
-
-            5 - 10 students
-
-            Evening classes 2 times/week + homework
-
-            *Free of charge
-            **Limited number of spots.
-        </p>
+    <div class="jumbotron jumbotron-green jumbotron-fluid">
+        <div class="text-center insta-text">
+            <h2><strong>Follow Us On <span class="insta"> Instagram</span></strong></h2>
+        </div>
+        <div id="instafeed" class="row justify-content-center gallery"></div>
+        <a href="https://www.weareinprogress.no/">
+        <img class="ip-logo" src="images/IP-logo.png" alt="In:progress-logo"></a>    
     </div>
-    <div class="side"></div>
-    <div class="main">
-        <p style="white-space:pre-wrap;">
-            What will you gain?
-            Soft skills training
-
-            Soft skill training e.g. teamwork, leadership, communication
-
-            Relevant professional mentors and network
-
-            Meet Norwegian employers looking for techies
-
-            Introduction to innovation methods
-
-            Technical training
-
-            Practical programming classes
-
-            Homework: theory and online training
-
-            Introduction to IT architecture, data security, software delivery and DevOps
-
-            Everyone will get a We Ignite Tech certificate.
-        </p>
+<br>
+    <div class="chat-popup" id="myForm">
+        <script src="https://embed.small.chat/TD2KT5HMYGG2L2701Y.js" async></script>
     </div>
-    <div class="side"></div>
-    <div class="main">
-    <p style="white-space:pre-wrap;">
-        Who are we looking for?
-        Technical Qualifications
-
-        Technology background (education or equivalent experience) (NOT: hardware)
-
-        Coding experience or good understanding of statistics and/or maths.
-
-        Some technologies you should be familiar with:
-        HTML, CSS, JavaScript
-
-        Nice to have: some basic experience with a server-side programming language (C, C#, Go, Java, Python, Ruby)
-
-        General criteria
-
-        Newcomers: arrived in the past five years with residence permit (temporary or permanent).
-
-        Over 18 years old
-
-        Living in the Oslo area
-
-        Good level in Norwegian and/or English
-
-        Higher education is not a requirement, but an advantage
-
-        You should be prepared to dedicate at least 15-20 hours per week (6 hours in class + practical work on your own and/or with fellow students).
-
-        Personal characteristics:
-
-        Motivated and engaged, positive, focused on teamwork, takes responsibility for your own learning and career development and willing to work hard to reach your goals. </p>
+        <!-- CourseUpdates" -->
+    <div class="courseUpdates text-center" >
+    <form id="anchoring_box" data-aos="fade-right" data-aos-anchor="#courseUpdates" method="post" action="https://briskforms.com/go/de47d3e3cca00a1b25e42671a7f80b65">
+        <div >
+           <b>Subscribe for course dates!</b>
+            <input class="applyinterest btn btn-lg" name="email" id="email" type="email" placeholder="Your Email" required><button class="btn btn-info btn-lg" type="submit">Send me<br>course updates!</button>
+            <small class="promise"><strong>*We won't send spam.</strong></small>
+        </div>
+    </form>
     </div>
-    <div class="side"></div>
-    <div class="main">
-        <p style="white-space:pre-wrap;" >
-            How to apply
-            Application deadline WAS September 3rd 2018
 
-            Unfortunately the application process for the program 2018/2019 is over, but please get in touch if you wish to know more.
+    <!--footer here-->
+    <footer>
+        <div class="container text-center">
+            <a class="btn btn-link" href="https://www.facebook.com/weareinprogress"><i class="fab fa-facebook fa-2x" aria-hidden="true"></i></a>
+            <a class="btn btn-link" href="https://github.com/WeIgniteTech" aria-hidden="true"><i class="fab fa-github fa-2x"></i></a>
+            <a class="btn btn-link" href="https://www.instagram.com/theweignitetechprogram"><i class="fab fa-instagram fa-2x"></i></a>
+        </div>
+        <div class="footer"><h4><strong>All Rights Reserved <strong>&copy</strong> WIT:IP The Website Development Team: <br>Hiruth, Grace, Osman and Jehad</strong></h4></div>
 
-            **Limited number of spots.  *Free of charge
-            If you have any questions - contact:
+    </footer>
+    <!-- Bootstrap Core JS. Placed at the end of the document so the pages load faster!! -->
+    <div class="script" content="take script out of div and place at the bottom after editing!">
+        <!-- Button Interest for WITP Program -->
+         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 
-            Linn Tomasdotter - questions about the recruitment process or the soft skill training.
-            linn(at)weareinprogress.no Phone: (+47) 41 234 038
-            Thomas Dufourd - questions about the technical training, or details of the program.
-            thomas(at)weignite.tech
-        </p>
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+        <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        <!--Carousel-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="carousel.js"></script>
+        <script type="text/javascript" >AOS.init();</script>
+
+
+        <!--Instafeed-->
+        <script src="./js/instafeed.min.js"></script>
+        <script src="./js/aboutUs.js"></script>
+        <script src="./js/magnific-popup.js"></script>
+        <script src="./js/mentorCards.js"></script>
+        <script src="navbar.js"></script>
     </div>
-</div>
-<style>
-</style>
-
-<div class="footer">
-    <p>WeIgniteTech</p>
-</div>
-
 </body>
+
 </html>
