@@ -1,137 +1,155 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us" xmlns="http://www.w3.org/1999/html">
 <head>
-    <meta charset="UTF-8">
-    <title>WIT</title>
-</head>
-
-<script type="module" src="client-app.js"></script>
-<script type="module" src="utils/client-app-utils.js"></script>
-
-
-<head>
-   
-<html>
-<head>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="applynow.css">
-
-
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="A page with information about the WIT-Project and application form.">
+    <meta name="author" content="The webpage for WIT created by members from the 2018/2019 course. Grace, Osman, Jehad and Hiruth.">
 
     <title>WE IGNITE TECH IN:PROGRESS</title>
 
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
+    <!-- External CSS file(s) -->
+    <link rel="stylesheet" href="style.css">
+
+
+    <!-- External font styles -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+    <!--      CSS rules to specify family:
+    font-family: 'Courgette', cursive;
+    font-family: 'Major Mono Display', monospace;
+    font-family: 'Pompiere', cursive;         -->
+    <link href="https://fonts.googleapis.com/css?family=Courgette|Major+Mono+Display|Pompiere" rel="stylesheet">
 </head>
+
 <body>
-<nav>
-<a href="index.html" target="_self">
-    <div id="logo" class="navbar-brand">
-        <h1>We Ignite Tech</h1>
-    </div>
-</a>
+<header>
+    <nav id="navbar" class="navbar navbar-inverse navbar-expand-md navbar-light fixed-top">
+        <a class="navbar-brand ml-3" href="index.html">
+            <span class="glyphicon glyphicon-fire"></span> WE IGNITE TECH</a>
+        <!--Todo: could make a cool animation with the acronym as it is only straight lines -->
+        <button class="navbar-toggler btn-secondary mr-0" type="button" data-toggle="collapse" data-target="#navbarMenu" aria-controls="navbarMenue" aria-expanded="false" aria-label="Toggle Navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse right" id="navbarMenu">
+            <ul class="navbar-nav mr-auto navbar-right">
+                <li><a href="aboutus.html"><span class="glyphicon glyphicon-user"></span> About Us</a></li>
+                <li><a href="WITP.html"><span class="glyphicon glyphicon-list-alt"></span> WIT Program</a></li>
+                <li><a href="applynow.html"><span class="glyphicon glyphicon-check"></span> Apply Now</a></li>
+                <li><a href="contactus.html"><span class="glyphicon glyphicon-envelope"></span> Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+
+<!-- application page -->
 <div>
-    <ul class="navbar">
-        <li>  <span><a href="applynow.html"><span class="Apply"></span>Apply Now</a></span></li>
-        <li> <span><a href="about us.html" target="_self"><span class="About"></span>About Us</a></span></li>
-        <li><span><a href="contactform.html" target="_self"><span class ="Contact"></span>Contact us</a></span></li>
-    </ul>
+<div class="applynow-headerimage" >
+    <img src="images/applynow.png" alt="apply-now">
+        <p class="centered">
+            <h2><strong></strong></h2>
+        </div>
 </div>
-</nav>
-<br>
-<br>
-<br>
-<br>
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-</head>
-<div class="button-container">
-    <h2>Click for taking information<br/>about future courses</h2>
-    <!-- Trigger the modal with a button -->
-    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal"><img src="images/information.png" style="width: 50px" alt="information"> </button>
+<!-- Mail Course Update -->
 
-    <!-- Modal -->
-    <div class="modal fade" id="myModal" role="dialog">
-        <div class="modal-dialog">
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+            <hgroup class="text-center">
+                <h4>
+                    The application process has not yet started. 
+                    <br>Simply write your email address below
+                    <br>so we can send you updates.
+                </h4>
+            </hgroup>
+            <div class="well">
+                <form method="post"                      action="https://briskforms.com/go/de47d3e3cca00a1b25e42671a7f80b65">
+                    <div class="input-group">
 
-            <!-- Modal content-->
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    <h4 class="modal-title">E-mail Notification</h4>
-                </div>
-                <div class="modal-body">
-                    <!-- Contact Form -->
-
-                    <h1 id="header">Take Notification About Course Dates</h1>
-
-                    <section id="contact">
-                        <div class="modal-container">
-
-                            <!-- <div class="col-lg-12 about-top-space text-center"> -->
-
-                            <label for="name" id="name">Name:</label>
-                            <input autofocus type="text" id="name-label" name="name" class="form-control" placeholder="Enter your name" required>
-
-
-
-                            <br>
-
-                            <label for="email" id="email">Email Address:</label>
-                            <input autofocus type="text" id="email-label" name="email" class="form-control" placeholder="Enter your email address" required>
-
-                            <br>
-
-
-                            <div class="rowTab">
-
-                            </div>
-                            <div id="submit"><input type="submit" name="submit" value="Submit Now">
-                            </div>
-                            <br>
-
-                            </form>
-                        </div>
-
-                    </section>
-
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                </div>
+                        <input class="btn btn-lg" name="email" id="email" type="email" placeholder="Email Address" required>
+                        <button class="btn btn-info btn-lg" type="submit">Subscribe</button>
+                    </div>
+                    <small class="promise"><strong>*We won't send spam.</strong></small>
+                </form>
             </div>
-
         </div>
     </div>
-
 </div>
 
-<br>
-<br>
+ <!-- <iframe for google forms> -->
 
-<!-- <frame for google forms> -->
+  <div class="container google-form">
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd6DhJr_ANaVx-KUkrrgpBLdfWVpifaIhunaDR8CwRzFdFzpA/viewform?embedded=true" width="100%" height="510" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+  </div>
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd6DhJr_ANaVx-KUkrrgpBLdfWVpifaIhunaDR8CwRzFdFzpA/viewform?embedded=true" width="1024px" height="768" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
-
-<footer class="footer">
-    <div class="container text-center">
-        <a class="btn btn-link" href="https://www.facebook.com/"><i class="fab fa-facebook-square fa-2x " aria-hidden="true"></i></a>
-        <a class="btn btn-link" href="https://www.linkedin.com/"><i class="fab fa-linkedin fa-2x " aria-hidden="true"></i></a>
-        <a class="btn btn-link " href="https://twitter.com/"><i class="fab fa-twitter-square fa-2x " aria-hidden="true"></i></a>
-        <a class="cc-instagram btn btn-link " href="https://instagram.com/"><i class="fab fa-instagram fa-2x " aria-hidden="true"></i></a>
+<!-- in:progress -->
+      
+<main>
+  <div class="jumbotron jumbotron-green">
+    <div class="container in:progress">
+        <h2 class="text-left"><strong><i>Have You Read Our Latest Article?</i></strong></h2><br>
+        <div class="row">
+           <div class="col-6">
+               <center>
+    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fweareinprogress%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe> <br>
+               </center>
+            </div>
+        </div>
+      </div>
+<a href="https://www.weareinprogress.no/">
+        <img class="ip-logo" src="images/IP-logo.png" alt="In:progress-logo"></a>
     </div>
-    <div class="text-center"><a class="navbar-brand ml-3" href="#"><b style="font-size: 5vh">W</b>e<span style="color:rgba(0, 0, 139, 0.86)"><b>I</b></span>gnite<span style="color:#1212e3"><b>t</b></span>ech
-        <!--Todo: could make a cool animation with the acronym as it is only straight lines --></a></div>
-    <div class="text-center text-muted">
-        <p>All rights reserved&copy;WIT:IP website team; Grace, Osman, Jehad and Hiruth</p>
-    </div>
+
+<!-- small  chat codes -->
+        <div class="chat-popup" id="myForm">
+            <script src="https://embed.small.chat/TD2KT5HMYGG2L2701Y.js" async></script>
+        </div>
+
+<!-- Getting space between header and main-container -->
+    
+</main>
+               
+<!-- footer here -->
+<footer>
+        <div class="container text-center">
+            <a class="btn btn-link" href="https://www.facebook.com/weareinprogress"><i class="fab fa-facebook fa-2x" aria-hidden="true"></i></a>
+            <a class="btn btn-link" href="https://github.com/WeIgniteTech" aria-hidden="true"><i class="fab fa-github fa-2x"></i></a>
+            <a class="btn btn-link" href="https://www.instagram.com/theweignitetechprogram"><i class="fab fa-instagram fa-2x"></i></a>
+        </div>
+
+            <div class="footer"><h4><strong>All Rights Reserved <strong>&copy</strong> WIT:IP The Website Development Team: <br>Hiruth, Grace, Osman and Jehad</strong></h4>
+            </div>
+        
 </footer>
 
+
+<!-- Bootstrap Core JS. Placed at the end of the document so the pages load faster!! -->
+<div class="script" content="take script out of div and place at the bottom after editing!">
+    <!-- Button Interest for WITP Program -->
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <script src="navbar.js"></script>
+    <!--Carousel-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" >AOS.init();</script>
+
+    
+</div>
 </body>
-
-
 
 </html>
