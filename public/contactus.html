@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="A page with information about the WIT-Project and application form.">
+    <meta name="author" content="The webpage for WIT created by members from the 2018/2019 course. Grace, Osman, Jehad and Hiruth.">
+
+    <title>WE IGNITE TECH IN:PROGRESS</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- External CSS file(s) -->
+    <link rel="stylesheet" href="style.css">
+    
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- External font styles -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+    <!--      CSS rules to specify family: 
+    font-family: 'Courgette', cursive;
+    font-family: 'Major Mono Display', monospace;
+    font-family: 'Pompiere', cursive;         -->
+    <link href="https://fonts.googleapis.com/css?family=Courgette|Major+Mono+Display|Pompiere" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav id="navbar" class="navbar navbar-inverse navbar-expand-md navbar-light fixed-top">
+            <a class="navbar-brand ml-3" alt="Home" href="index.html">
+                <span class="glyphicon glyphicon-fire"></span> WE IGNITE TECH</a>
+            <!--Todo: could make a cool animation with the acronym as it is only straight lines -->
+            <button class="navbar-toggler btn-secondary mr-0" type="button" data-toggle="collapse" data-target="#navbarMenu" aria-controls="navbarMenue" aria-expanded="false" aria-label="Toggle Navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse right" id="navbarMenu">
+                <ul class="navbar-nav mr-auto navbar-right">
+                    <li><a href="aboutus.html"><span class="glyphicon glyphicon-user"></span> About Us</a></li>
+                    <li><a href="WITP.html"><span class="glyphicon glyphicon-list-alt"></span> WIT Program</a></li>
+                    <li><a href="applynow.html"><span class="glyphicon glyphicon-check"></span> Apply Now</a></li>
+                    <li><a href="contactus.html"><span class="glyphicon glyphicon-envelope"></span> Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- small  chat codes -->
+        <div class="chat-popup" id="myForm">
+            <script src="https://embed.small.chat/TD2KT5HMYGG2L2701Y.js" async></script>
+        </div>
+        <script>
+        </script>
+    </header>
+    <!-- contact us photo -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <img src="contactus.jpg" alt="" class="img-responsive" />
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="hero-img col-sm-12">
+        </div>
+    </div>
+
+    <!-- Contact Form -->
+    <div class="container">
+        <section id="contact">
+            <div class="text-center">
+                <h2><strong>We would love to hear from you!</strong></h2>
+                <h4>Our friendly We Ignite Tech team is eager to help you</h4>
+                <br>
+            </div>
+            <div class="container contactform-container">
+                <!-- form action="/action_page.php" onsubmit="return validateForm()" method="post"      -->
+                <form method="post" action="https://briskforms.com/go/de47d3e3cca00a1b25e42671a7f80b65">
+                    <!-- this method will work that message info will be sent directly to an email provided -->
+                    <div class="text-left">
+
+                        <i class="glyphicon glyphicon-user"></i>
+                        <label for="name" id="name"> Name :</label>
+                        <input autofocus type="text" id="name-label" name="name" class="form-control" placeholder="Enter your name" required>
+                        <br>
+                        <i class="glyphicon glyphicon-envelope"></i>
+                        <label for="email" id="email"> Email Address :</label>
+                        <input autofocus type="email" id="email" name="email" class="form-control" placeholder="Enter your email address" required>
+                        <br>
+                        <i class="glyphicon glyphicon-pencil"></i>
+                        <label for="message" id="message"> Message :</label>
+                        <textarea id="message-label" name="message" class="form-control" rows="5" placeholder="Enter your message" required="required"></textarea>
+                        <br>
+                        <div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="text-center">
+                        <input type="submit" class="btn btn-dark btn-send " value="Send Message">
+                    </div>
+                </form>
+            </div>
+        </section>
+    </div>
+    <br>
+    <!-- Location Map plugin -->
+    <!-- <div class="jumbotron jumbotron-green align-items-center">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 align-items-center mapouter">
+                
+                    <div class="gmap_canvas"><iframe width="333" height="333" id="gmap_canvas" src="https://maps.google.com/maps?q=%C3%B8vre%20slottsgate%203&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+                        </iframe>
+                    </div> 
+                
+            </div>
+        </div>
+    </div>
+</div> -->
+    <!--    OLD
+  <div class="jumbotron jumbotron-green">
+    <div class="container gmap">
+        <h2 class="text-center"><strong><i>Drop in and say hi...</i></strong></h2><br>
+        <div class="row">
+           <div class="col-6">
+             <h3><strong>Sentralen</strong></h3>
+        <p><br>5 etg. SoCentral
+        <br>Øvre Slottsgate 3
+          <br>0157 Oslo</p>
+        
+    </div>
+    <div class="col-6">
+      <!-- <h3 class="text-dark text-left"><strong>Google Map</strong></h4> -->
+    <!-- Location Map plugin ->
+    <div class="container-location">
+        <div class="row">
+            <div class="col-12 align-items-center mapouter">
+                
+                    <div class="gmap_canvas"><iframe width="275" height="275" id="gmap_canvas" src="https://maps.google.com/maps?q=%C3%B8vre%20slottsgate%203&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+                        </iframe>
+                    </div>  
+                </div>
+            </div>
+       </div>
+    </div>
+    -->
+    <!-- NEW -->
+    <div class="jumbotron jumbotron-green">
+        <div class="container text-white">
+            <div class="sentralen">
+                <h2 class="text-center">
+                    <strong>We are located at <a href="https://www.sentralen.no/en/"> Sentralen</a></strong></h2>
+                <h4 class="text-center"><i>- Meeting place, workshop and performance venue.<br> In the heart of Oslo. </i><br></h4>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <div class="text-adress text-center">
+                        <h3>Sentralen</h3><br>
+                        <p>5 etg. SoCentral</p><br>
+                        <p>Øvre Slottsgate 3</p><br>
+                        <p>0157 Oslo</p>
+                    </div>
+                </div>
+                <div class="col-8">
+                    <!-- <h3 class="text-dark text-left"><strong>Google Map</strong></h4> -->
+                    <!-- Location Map plugin -->
+
+                    <div class="mapouter">
+                        <div class="gmap_canvas"><iframe id="gmap_canvas" src="https://maps.google.com/maps?q=%C3%B8vre%20slottsgate%203&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="https://www.weareinprogress.no/">
+        <img class="ip-logo" src="images/IP-logo.png" alt="In:progress-logo"></a>  
+    </div>
+    <!--footer here-->
+    <footer>
+        <div class="container text-center">
+            <a class="btn btn-link" href="https://www.facebook.com/weareinprogress"><i class="fab fa-facebook fa-2x" aria-hidden="true"></i></a>
+            <a class="btn btn-link" href="https://github.com/WeIgniteTech" aria-hidden="true"><i class="fab fa-github fa-2x"></i></a>
+            <a class="btn btn-link" href="https://www.instagram.com/theweignitetechprogram"><i class="fab fa-instagram fa-2x"></i></a>
+        </div>
+
+        <div class="footer"><h4><strong>All Rights Reserved <strong>&copy</strong> WIT:IP The Website Development Team: <br>Hiruth, Grace, Osman and Jehad</strong></h4></div>
+    </footer>
+    
+    <!-- Bootstrap Core JS. Placed at the end of the document so the pages load faster!! -->
+    <div class="script" content="take script out of div and place at the bottom after editing!">
+        <!-- Button Interest for WITP Program -->
+         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+        <link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+        <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+        <script src="navbar.js"></script>
+        <!--Carousel-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script type="text/javascript" >AOS.init();</script>
+
+    </div>
+</body>
+
+</html>
